@@ -1,0 +1,21 @@
+{
+  "tabla": "EDA_v3_todos.csv",
+  "normalizacion": "global",
+  "umbral_correlacion": 0.98,
+  "paso_train": 80,
+  "semillas": 5,
+  "semilla_base": 42,
+  "modelos": [
+    "RandomForest",
+    "AdaBoost",
+    "LDA"
+  ],
+  "pesos": "balanceado",
+  "validacion": "LOSO (LeaveOneGroupOut)",
+  "versiones": {
+    "python": "3.13.15",
+    "numpy": "2.1.3",
+    "pandas": "2.3.3",
+    "scikit-learn": "1.6.1"
+  }
+}
